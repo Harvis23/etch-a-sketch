@@ -1,0 +1,19 @@
+#contenedor {
+    display: flex;
+    align-content: center;
+    border-color: blueviolet;
+    border-radius: 3px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#pantalla{
+    height: 500px;
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+
+}
+
