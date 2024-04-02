@@ -34,6 +34,8 @@ function updateGrid() {
         pantalla.appendChild(pixel);
     
         pixel.addEventListener("mouseover", changeBackgroundColor);
+
+        
     
     
         const reset = document.querySelector(".reset");
