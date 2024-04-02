@@ -28,6 +28,10 @@ body {
     padding-bottom: 10px;
 }
 
+#tamanho {
+    margin-bottom: 0.67em;
+}
+
 .pixel {
     border: 1px solid whitesmoke;
 }
