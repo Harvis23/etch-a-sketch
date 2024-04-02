@@ -9,20 +9,26 @@
 
 }
 
+body {
+    background-color: aliceblue;
+}
+
 #pantalla{
-    height: 500px;
-    width: 500px;
     border-style: solid;
     border-width: medium;
+    background-color: white;
     border-color: red;
     display: flex;
     flex-wrap: wrap;
-    align-content: center;
 
 }
 
 #botones{
     padding-top: 20px;
     padding-bottom: 10px;
+}
+
+.pixel {
+    border: 1px solid whitesmoke;
 }
 

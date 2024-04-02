@@ -1,13 +1,18 @@
-const pantalla = document.getElementById("pantalla")
-for (let i = 0; i <= 16; i++){
-    for (let j = 0; j <= 16; j++){
-        const square = document.createElement("div");
-        square.classList.add("square");
-        square.style.width = "8px"; // Set the width
-        square.style.height = "8px"; // Set the height
-        square.style.backgroundColor = "white"; // Set the background color
-        square.style.border = "1px solid black"; 
-        pantalla.appendChild(square);
+const GRIDSIZE = 600;
+const rows = 16;
+const cols = 16;
 
-    }
+
+const pantalla = document.getElementById("pantalla");
+pantalla.style.width = `${GRIDSIZE}px`;
+pantalla.style.height = `${GRIDSIZE}px`;
+
+
+for (let i = 0; i < (rows * cols); i++){
+    const pixel = document.createElement("div");
+    pixel.classList.add("pixel");
+    pixel.style.width =  `${(GRIDSIZE/cols) - 2}px`
+    pixel.style.height = `${(GRIDSIZE/rows) - 2}px`;
+    pantalla.appendChild(pixel);
+
 }
