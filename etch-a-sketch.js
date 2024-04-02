@@ -15,4 +15,22 @@ for (let i = 0; i < (rows * cols); i++){
     pixel.style.height = `${(GRIDSIZE/rows) - 2}px`;
     pantalla.appendChild(pixel);
 
+    pixel.addEventListener("mouseover", changeBackgroundColor);
+
+
+    const reset = document.querySelector(".reset");
+    reset.addEventListener("click", () => {
+        pixel.style.backgroundColor = "white";
+    })
+
+    
 }
+
+
+
+function changeBackgroundColor() {
+    this.style.backgroundColor = "black"
+
+}
+
+
