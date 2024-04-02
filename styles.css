@@ -1,6 +1,5 @@
 #contenedor {
     display: flex;
-    align-content: center;
     border-color: blueviolet;
     border-radius: 3px;
     justify-content: center;
@@ -20,6 +19,7 @@ body {
     border-color: red;
     display: flex;
     flex-wrap: wrap;
+    box-shadow: 10px 10px rgba(0, 170, 255, 0.034);
 
 }
 
